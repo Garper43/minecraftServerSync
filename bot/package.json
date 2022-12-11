@@ -1,0 +1,18 @@
+{
+  "name": "server-bot",
+  "version": "1.0.0",
+  "description": "notifies discord about server status",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Garper",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "discord.js": "^14.7.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0"
+  }
+}
